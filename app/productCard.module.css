@@ -1,0 +1,51 @@
+/* ProductCard.module.css */
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; /* Adjust as needed */
+    
+  }
+
+  .productCard p {
+    color: #888792;
+    font-weight: 400;
+    font-size: 8px;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .productInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .signIn {
+    cursor: pointer;
+    text-decoration: underline;
+    /* Add some space between "Sign in" and "Like" */
+  }
+  
+  .likeContainer {
+    cursor: pointer;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  
+  .like {
+    color: #aaa;
+    transition: color 0.3s;
+  }
+  
+  .liked {
+    color: red;
+  }
+  

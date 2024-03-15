@@ -202,6 +202,175 @@
   }
 }
 
+
+.header_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  
+}
+
+
+.header_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.logo{
+  margin-right:20px
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.header_3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-weight: 700;
+}
+
+.header_3 a {
+  position: relative;
+  text-decoration: none;
+  color: inherit; /* Use the default text color */
+  overflow: hidden; /* Hide the overflow of the underline */
+}
+
+.header_3 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 100%; /* Initially start from the left edge */
+  bottom: 0;
+  height: 1px; /* Thickness of the underline */
+  background-color: black; /* Color of the underline */
+  transition: right 0.3s ease; /* Animate the right position */
+}
+
+.margin {
+  box-sizing: border-box;
+  margin: 30px 50px;
+}
+
+.header_3 a:hover::after {
+  right: 0; /* Move the underline to the right edge */
+}
+
+
+.header_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head {
+  font-family: 'Simplon Norm';
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 0.2;
+}
+
+.header_5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.75em;
+}
+
+.header_5 div:first-child {
+  margin-left: 50px; /* Add space between items (adjust as needed) */
+}
+
+.header_5 div {
+  margin-right: 30px;
+}
+
+.header_5 div:last-child {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownContent p {
+  padding: 10px 14px;
+  margin: 0;
+  color: #333;
+  float: right;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Header.module.css */
+.selectedOption {
+  margin-right: 5px; /* Adjust the margin as needed */
+  font-weight: bold; /* Increase the font weight for selected option */
+}
+
+.header_6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+  gap: 2px; /* Gap between grid items */
+  justify-items: center; /* Center items horizontally */
+  margin-top: 10px; /* Add some space at the top */
+}
+
+.products_2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns in each row */
+  gap: 2px; /* Gap between grid items */
+  justify-items: center; /* Center items horizontally */
+  margin-top: 10px;
+}
+
+
+
+
+
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
