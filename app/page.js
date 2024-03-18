@@ -352,6 +352,83 @@ export default function Home() {
       </div>
 
 
+    <div className={styles.mobilefooter}>
+       <div >
+         <h3>BE THE FIRST TO KNOW</h3>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. this is simply dummy text.</p>
+         <div className={styles.mobilesearch}>
+              <input
+                type="text"
+                placeholder="Enter your email"
+                style={{
+                  height: '30px',
+                  width: '200px',
+                  marginRight: '20px',
+                  border: '1px solid #ccc',
+                  borderRadius: '0px',
+                }}
+              />
+              <button
+                style={{
+                  backgroundColor: 'black',
+                  color: 'white',
+                  border: 'none',
+                  height: '30px',
+                  width: '100px',
+                  borderRadius: '0px',
+                  border: '1px solid #fff',
+                  fontWeight: 200
+                }}
+              >
+                SUBSCRIBE
+              </button>
+            </div>
+       </div>
+    <hr></hr>
+
+      <div className={styles.mobilesection}>
+        <h3>CALL US</h3>
+        <p>▼</p>
+      </div>
+       
+       <hr></hr>
+
+       <div className={styles.mobilesection}>
+       <h3>CURRENCY</h3>
+        <p>▼</p>
+       </div>
+       <hr></hr>
+
+       <div className={styles.mobilesection}>
+       <h3>metta muse</h3>
+        <p>▼</p>
+       </div>
+
+       <hr></hr>
+
+       <div className={styles.mobilesection}>
+       <h3>QUICK LINKS</h3>
+        <p>▼</p>
+       </div>
+
+       <hr></hr>
+
+       <div className={styles.mobilesection}>
+       <h3>FOLLOW US</h3>
+        <p>▼</p>
+       </div>
+
+       <hr></hr>
+
+       <div className={styles.mobilesection}>
+       <h3>metta muse ACCEPTS</h3>
+        
+       </div>
+
+
+    </div>
+
+
     </>
   )
 
