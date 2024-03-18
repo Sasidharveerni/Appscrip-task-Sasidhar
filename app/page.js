@@ -425,7 +425,7 @@ export default function Home() {
         
        </div>
 
-
+       <div className={styles.lastline}>Copyright © 2023 mettamuse. All rights reserved.</div>
     </div>
 
 
