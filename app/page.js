@@ -1,4 +1,5 @@
 'use client'
+import Head from 'next/head';
 import Image from 'next/image';
 import styles from './page.module.css';
 import first_img from '../public/images/Frame_32.png';
@@ -30,6 +31,8 @@ import React, { useState } from 'react';
 import Filter from './filter';
 
 
+
+
 export default function Home() {
 
   const [showFilters, setShowFilters] = useState(false);
@@ -41,6 +44,10 @@ export default function Home() {
   };
   return (
     <>
+     <Head>
+        <title>AppScrip</title>
+        <meta name="description" content="Your website description" />
+      </Head>
       <div className={styles.header_1}>
         <Image
           src={first_img}
