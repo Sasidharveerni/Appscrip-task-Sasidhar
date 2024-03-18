@@ -97,7 +97,7 @@
     display: block !important;
   }
   .footer {
-    display: none; /* Hide footer */
+    display: none !important; /* Hide footer */
   }
 }
 
@@ -109,7 +109,7 @@
     display: block !important;
   }
   .footer {
-    display: none; /* Hide footer */
+    display: none !important; /* Hide footer */
   }
 }
 
@@ -269,6 +269,7 @@
   color: #fff;
   font-size: 0.75em;
   text-align: center;
+  display: none;
 }
 
 .mobilesection {
