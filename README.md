@@ -2,15 +2,15 @@ It is a task given by company called "App-Scrip", If you want to make any change
 
 To clone this repository:
 
-git clone https://github.com/Sasidharveerni/Appscrip-task-Sasidhar.git
+## git clone https://github.com/Sasidharveerni/Appscrip-task-Sasidhar.git
 
 Install node modules :
 
-npm install 
+## npm install 
 
 Run the project:
 
-npm run dev
+## npm run dev
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
