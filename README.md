@@ -1,3 +1,18 @@
+It is a task given by company called "App-Scrip", If you want to make any changes or give suggestions you can clone this repository and run the project by below instructions
+
+To clone this repository:
+
+git clone https://github.com/Sasidharveerni/Appscrip-task-Sasidhar.git
+
+Install node modules :
+
+npm install 
+
+Run the project:
+
+npm run dev
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
